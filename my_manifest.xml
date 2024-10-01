@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  
+  <!-- Default remote and branch -->
+  <remote name="origin" fetch="git@github.com:osimosu" />
+  <default revision="main" remote="origin" />
+
+  <!-- Define the linux_app repository -->
+  <project name="linux_app.git" path="app" revision="main" />
+
+  <!-- Define the linux_driver repository -->
+  <project name="linux_driver.git" path="driver" revision="main" />
+
+</manifest>
+
